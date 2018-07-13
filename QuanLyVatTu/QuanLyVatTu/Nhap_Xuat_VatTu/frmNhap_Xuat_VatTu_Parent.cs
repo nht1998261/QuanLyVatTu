@@ -15,6 +15,7 @@ namespace QuanLyVatTu.Nhap_Xuat_VatTu
         public frmNhap_Xuat_VatTu_Parent()
         {
             InitializeComponent();
+            //test parrent
         }
     }
 }
