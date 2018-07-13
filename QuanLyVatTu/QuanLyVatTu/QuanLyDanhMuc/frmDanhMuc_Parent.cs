@@ -16,6 +16,7 @@ namespace QuanLyVatTu.QuanLyDanhMuc
         {
             InitializeComponent();
             // ádf
+            //test 1 
         }
     }
 }
