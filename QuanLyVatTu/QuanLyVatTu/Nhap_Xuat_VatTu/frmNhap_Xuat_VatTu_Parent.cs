@@ -16,6 +16,7 @@ namespace QuanLyVatTu.Nhap_Xuat_VatTu
         {
             InitializeComponent();
             //test parrent
+            //test 5
         }
     }
 }
