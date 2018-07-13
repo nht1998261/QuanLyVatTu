@@ -30,15 +30,15 @@
         {
             this.tbcDangNhap = new System.Windows.Forms.TabControl();
             this.tabDangNhap = new System.Windows.Forms.TabPage();
-            this.tbDangKy = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.btnLogin = new System.Windows.Forms.Button();
             this.txtUSER = new System.Windows.Forms.RichTextBox();
             this.txtPass = new System.Windows.Forms.RichTextBox();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.btnLogin = new System.Windows.Forms.Button();
             this.btnReset = new System.Windows.Forms.Button();
+            this.tbDangKy = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -51,9 +51,9 @@
             this.txtPass_DK2 = new System.Windows.Forms.RichTextBox();
             this.tbcDangNhap.SuspendLayout();
             this.tabDangNhap.SuspendLayout();
-            this.tbDangKy.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
+            this.tbDangKy.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
             this.SuspendLayout();
@@ -81,17 +81,6 @@
             this.tabDangNhap.TabIndex = 0;
             this.tabDangNhap.Text = "Đăng nhập";
             this.tabDangNhap.UseVisualStyleBackColor = true;
-            // 
-            // tbDangKy
-            // 
-            this.tbDangKy.Controls.Add(this.tableLayoutPanel3);
-            this.tbDangKy.Location = new System.Drawing.Point(4, 25);
-            this.tbDangKy.Name = "tbDangKy";
-            this.tbDangKy.Padding = new System.Windows.Forms.Padding(3);
-            this.tbDangKy.Size = new System.Drawing.Size(457, 192);
-            this.tbDangKy.TabIndex = 1;
-            this.tbDangKy.Text = "Đăng ký";
-            this.tbDangKy.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel1
             // 
@@ -134,17 +123,6 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Mật khẩu";
             // 
-            // btnLogin
-            // 
-            this.btnLogin.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnLogin.Location = new System.Drawing.Point(3, 3);
-            this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(151, 30);
-            this.btnLogin.TabIndex = 2;
-            this.btnLogin.Text = "Đăng nhập";
-            this.btnLogin.UseVisualStyleBackColor = true;
-            // 
             // txtUSER
             // 
             this.txtUSER.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -181,6 +159,17 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(315, 100);
             this.tableLayoutPanel2.TabIndex = 7;
             // 
+            // btnLogin
+            // 
+            this.btnLogin.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnLogin.Location = new System.Drawing.Point(3, 3);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(151, 30);
+            this.btnLogin.TabIndex = 2;
+            this.btnLogin.Text = "Đăng ký";
+            this.btnLogin.UseVisualStyleBackColor = true;
+            // 
             // btnReset
             // 
             this.btnReset.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -191,6 +180,17 @@
             this.btnReset.TabIndex = 3;
             this.btnReset.Text = "Nhập lại";
             this.btnReset.UseVisualStyleBackColor = true;
+            // 
+            // tbDangKy
+            // 
+            this.tbDangKy.Controls.Add(this.tableLayoutPanel3);
+            this.tbDangKy.Location = new System.Drawing.Point(4, 25);
+            this.tbDangKy.Name = "tbDangKy";
+            this.tbDangKy.Padding = new System.Windows.Forms.Padding(3);
+            this.tbDangKy.Size = new System.Drawing.Size(457, 192);
+            this.tbDangKy.TabIndex = 1;
+            this.tbDangKy.Text = "Đăng ký";
+            this.tbDangKy.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel3
             // 
@@ -330,10 +330,10 @@
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmDangNhap_FormClosed);
             this.tbcDangNhap.ResumeLayout(false);
             this.tabDangNhap.ResumeLayout(false);
-            this.tbDangKy.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.tableLayoutPanel2.ResumeLayout(false);
+            this.tbDangKy.ResumeLayout(false);
             this.tableLayoutPanel3.ResumeLayout(false);
             this.tableLayoutPanel3.PerformLayout();
             this.tableLayoutPanel4.ResumeLayout(false);
