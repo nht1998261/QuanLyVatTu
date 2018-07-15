@@ -15,6 +15,7 @@ namespace QuanLyVatTu.BaoCao
         public frmBAOCAO_Parent()
         {
             InitializeComponent();
+            //quang test
         }
     }
 }
