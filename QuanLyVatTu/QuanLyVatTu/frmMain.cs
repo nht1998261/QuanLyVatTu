@@ -19,5 +19,11 @@ namespace QuanLyVatTu
             frmDangNhap.MdiParent = this;
             frmDangNhap.Show();
         }
+
+        private void quảnLýNgườiDùngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmQLNguoiDung frmQLNguoiDung = new frmQLNguoiDung();
+            frmQLNguoiDung.Show();
+        }
     }
 }

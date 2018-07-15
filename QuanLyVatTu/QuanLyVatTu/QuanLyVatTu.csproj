@@ -51,6 +51,12 @@
     <Compile Include="BaoCao\frmBAOCAO_Parent.Designer.cs">
       <DependentUpon>frmBAOCAO_Parent.cs</DependentUpon>
     </Compile>
+    <Compile Include="HeThong\frmQLNguoiDung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HeThong\frmQLNguoiDung.Designer.cs">
+      <DependentUpon>frmQLNguoiDung.cs</DependentUpon>
+    </Compile>
     <Compile Include="HeThong\frmDangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,9 @@
     <Compile Include="QuanLyDanhMuc\frmDanhMuc_Parent.Designer.cs">
       <DependentUpon>frmDanhMuc_Parent.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="HeThong\frmQLNguoiDung.resx">
+      <DependentUpon>frmQLNguoiDung.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="HeThong\frmDangNhap.resx">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
     </EmbeddedResource>
