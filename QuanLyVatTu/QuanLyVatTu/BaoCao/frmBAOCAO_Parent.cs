@@ -16,6 +16,7 @@ namespace QuanLyVatTu.BaoCao
         {
             InitializeComponent();
             //quang test
+            //sdfsdf
         }
     }
 }
